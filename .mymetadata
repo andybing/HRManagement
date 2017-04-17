@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="PowerProject"
+  id="myeclipse.1442555144156"
+  context-root="/PowerProject"
+  j2ee-spec="5.0"
+  archive="PowerProject.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

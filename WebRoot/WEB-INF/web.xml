@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <filter>
+  	<filter-name>EncodingFilter</filter-name>
+  	<filter-class>com.andy.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>EncodingFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <servlet>
+    <servlet-name>PrpAddServlet</servlet-name>
+    <servlet-class>com.andy.servlet.PrpAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PrpGetAllServlet</servlet-name>
+    <servlet-class>com.andy.servlet.PrpGetAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrpGetServlet</servlet-name>
+    <servlet-class>com.andy.servlet.PrpGetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrpUpdateServlet</servlet-name>
+    <servlet-class>com.andy.servlet.PrpUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrpUpdateServlet2</servlet-name>
+    <servlet-class>com.andy.servlet.PrpUpdateServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrpDelServlet</servlet-name>
+    <servlet-class>com.andy.servlet.PrpDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectGetAllServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectGetAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectDelServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectUpdateServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectUpdateServlet2</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectUpdateServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectAddServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectSetPrpServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectSetPrpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentAddServlet</servlet-name>
+    <servlet-class>com.andy.servlet.DepartmentAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentDelServlet</servlet-name>
+    <servlet-class>com.andy.servlet.DepartmentDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrpGetAllByPageServlet</servlet-name>
+    <servlet-class>com.andy.servlet.PrpGetAllByPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectGetAllByPageServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectGetAllByPageServlet</servlet-class>
+  </servlet><servlet>
+    <servlet-name>TreeServlet</servlet-name>
+    <servlet-class>com.andy.tree.TreeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProjectDelPrpServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectDelPrpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentGetAllServlet</servlet-name>
+    <servlet-class>com.andy.servlet.DepartmentGetAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentUpdateServlet</servlet-name>
+    <servlet-class>com.andy.servlet.DepartmentUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectSetDeptServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectSetDeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectDelDeptServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectDelDeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentGetAllNameServlet</servlet-name>
+    <servlet-class>com.andy.servlet.DepartmentGetAllNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentGetAllPeopleServlet</servlet-name>
+    <servlet-class>com.andy.servlet.DepartmentGetAllPeopleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentSetPeopleServlet</servlet-name>
+    <servlet-class>com.andy.servlet.DepartmentSetPeopleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProjectSetPeopleServlet</servlet-name>
+    <servlet-class>com.andy.servlet.ProjectSetPeopleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>com.andy.servlet.UserLoginServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <servlet-mapping>
+    <servlet-name>TreeServlet</servlet-name>
+    <url-pattern>/servlet/TreeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrpAddServlet</servlet-name>
+    <url-pattern>/servlet/PrpAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrpGetAllServlet</servlet-name>
+    <url-pattern>/servlet/PrpGetAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrpGetServlet</servlet-name>
+    <url-pattern>/servlet/PrpGetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrpUpdateServlet</servlet-name>
+    <url-pattern>/servlet/PrpUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrpUpdateServlet2</servlet-name>
+    <url-pattern>/servlet/PrpUpdateServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrpDelServlet</servlet-name>
+    <url-pattern>/servlet/PrpDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectGetAllServlet</servlet-name>
+    <url-pattern>/servlet/ProjectGetAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectDelServlet</servlet-name>
+    <url-pattern>/servlet/ProjectDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectUpdateServlet</servlet-name>
+    <url-pattern>/servlet/ProjectUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectUpdateServlet2</servlet-name>
+    <url-pattern>/servlet/ProjectUpdateServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectAddServlet</servlet-name>
+    <url-pattern>/servlet/ProjectAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectSetPrpServlet</servlet-name>
+    <url-pattern>/servlet/ProjectSetPrpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentAddServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentDelServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrpGetAllByPageServlet</servlet-name>
+    <url-pattern>/servlet/PrpGetAllByPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectGetAllByPageServlet</servlet-name>
+    <url-pattern>/servlet/ProjectGetAllByPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectDelPrpServlet</servlet-name>
+    <url-pattern>/servlet/ProjectDelPrpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentGetAllServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentGetAllServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentUpdateServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectSetDeptServlet</servlet-name>
+    <url-pattern>/servlet/ProjectSetDeptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectDelDeptServlet</servlet-name>
+    <url-pattern>/servlet/ProjectDelDeptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentGetAllNameServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentGetAllNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentGetAllPeopleServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentGetAllPeopleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentSetPeopleServlet</servlet-name>
+    <url-pattern>/servlet/DepartmentSetPeopleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProjectSetPeopleServlet</servlet-name>
+    <url-pattern>/servlet/ProjectSetPeopleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/servlet/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
